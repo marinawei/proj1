@@ -19,15 +19,19 @@ function preload() {
 
 function setup() {
   createCanvas(800, 600);
-  background(220);
+  /* background(220);
   text ('press F on your keyboard for frog sound', 50, 40);
   text ('press B on your keyboard for bird sound', 50, 60);
   text ('press C on your keyboard for cricket sound', 50, 80);
-
+*/
 }
 
 function draw() {
-
+background (220);
+  text ('press F on your keyboard for frog sound', 50, 40);
+  text ('press B on your keyboard for bird sound', 50, 60);
+  text ('press C on your keyboard for cricket sound', 50, 80);
+  
   if (keyIsPressed ) {
     if (key === 'f') {
       image (frogImg, 100, 200);
